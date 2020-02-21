@@ -24,7 +24,7 @@ The demo shows a simple React App using a scoped variable (`endpoint`) to displa
 
 Filebox is a macOS taskbar application much like Dropbox. When a user adds files and directories to their Filebox folder, they are synced to a Textile bucket under their control. Filebox is an example of a Textile Project created by a developer. The application embeds a project token that is used to register new users and manage threads.
 
-![Demo Gif](https://2020-hackathon.textile.cafe/developer_account_api_in_browser.gif)
+![Demo Gif](https://2020-hackathon.textile.cafe/filebox.gif)
 
 ## Third Place
 
