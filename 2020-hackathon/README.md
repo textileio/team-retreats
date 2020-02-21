@@ -14,7 +14,7 @@ Textile Project Config gives developers the ability to configure dynamic values 
 
 The demo shows a simple React App using a scoped variable (`endpoint`) to display information to users. Next, it shows how the developer can change the value of the `endpoint` key to update the app in real-time.
 
-![Demo Gif](https://raw.githubusercontent.com/textileio/team-retreats/master/2020-hackathon/remote_config_for_apps.gif)
+![Demo Gif](https://2020-hackathon.textile.cafe/remote_config_for_apps.gif)
 
 ## Second Place
 
@@ -24,7 +24,7 @@ The demo shows a simple React App using a scoped variable (`endpoint`) to displa
 
 Filebox is a macOS taskbar application much like Dropbox. When a user adds files and directories to their Filebox folder, they are synced to a Textile bucket under their control. Filebox is an example of a Textile Project created by a developer. The application embeds a project token that is used to register new users and manage threads.
 
-![Demo Gif](https://raw.githubusercontent.com/textileio/team-retreats/master/2020-hackathon/developer_account_api_in_browser.gif)
+![Demo Gif](https://2020-hackathon.textile.cafe/developer_account_api_in_browser.gif)
 
 ## Third Place
 
@@ -34,7 +34,7 @@ Filebox is a macOS taskbar application much like Dropbox. When a user adds files
 
 This hack is about making a simulator of [Reed-Solomon Encoding](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) on data to be stored in [Filecoin](https://filecoin.io). Each data and parity shard of the CAR file is stored as an independent deal. A tunable parameter for successful shard retrieval probability allows us to experience data reconstruction if the original data can't be fetched.
 
-![Demo Gif](https://raw.githubusercontent.com/textileio/team-retreats/master/2020-hackathon/reed_solomon_erasure_encoding_over_filecoin.gif)
+![Demo Gif](https://2020-hackathon.textile.cafe/reed_solomon_erasure_encoding_over_filecoin.gif)
 
 ## Fourth Place
 
@@ -44,7 +44,7 @@ This hack is about making a simulator of [Reed-Solomon Encoding](https://en.wiki
 
 This work-in-process/experiment takes rich text document updates (via [quilljs](https://quilljs.com/)), passes these through a json-crdt (via [automerge](https://github.com/automerge/automerge)), and then communicates updates between collaborating peers via the low-level Threads protocol (via [js-threads](https://github.com/textileio/js-threads)). The result is a conflict-free collaborative editing environment, where all updates are end-to-end encrypted such that only collaborating peers with explicit access can participate.
 
-![Demo Gif](https://raw.githubusercontent.com/textileio/team-retreats/master/2020-hackathon/crdt_automerge_over_threads.gif)
+![Demo Gif](https://2020-hackathon.textile.cafe/crdt_automerge_over_threads.gif)
 
 ## Fifth Place
 
@@ -54,4 +54,4 @@ This work-in-process/experiment takes rich text document updates (via [quilljs](
 
 In this hack we generated a JavaScript client for the [cloud.textile.io](https://cloud.textile.io/) developer APIs. This allows a UI to be built around developer accounts, including session management, team and project management, bucket viewing, token management and more. The hack included a basic demo UI showing a simple login flow and review of projects the developer has already created using the command-line tool.
 
-![Demo Gif](https://raw.githubusercontent.com/textileio/team-retreats/master/2020-hackathon/developer_account_api_in_browser.gif)
+![Demo Gif](https://2020-hackathon.textile.cafe/developer_account_api_in_browser.gif)
