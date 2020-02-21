@@ -30,7 +30,7 @@ Filebox is a macOS taskbar application much like Dropbox. When a user adds files
 
 [@jsign](https://github.com/jsign)
 
-**Shoring erasure encoded data in Filecoin using Reed-Solomon.**
+**Storing erasure encoded data in Filecoin using Reed-Solomon.**
 
 This hack is about making a simulator of [Reed-Solomon Encoding](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) on data to be stored in [Filecoin](https://filecoin.io). Each data and parity shard of the CAR file is stored as an independent deal. A tunable parameter for successful shard retrieval probability allows us to experience data reconstruction if the original data can't be fetched.
 
